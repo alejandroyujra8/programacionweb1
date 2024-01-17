@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop gringo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <center>
+            <img src="imagenes/rock.jpg" alt="titulo de la pagina" height="220px" id="fotopagina">
+        </center>
+        <br>
+        <hr align="center" width="80%">
+        <br>
+    </header>
+    <nav>
+        <div id="menu">
+            <p>EL POP ESTADOUNIDENSE</p>
+        </div>
+        <img src="imagenes/michael.png" alt="michael chiquito" id="michaelsito">
+        <br>
+        <div id="paginas">
+            <a href="#popantiguo" id="pagina">Pop Antiguo</a>
+            <a href="#popactual" id="pagina">Pop Actual</a>
+            <a href="#historia" id="pagina">Marcaron Historia</a>
+        </div>
+        <br>
+    </nav>
+    <main>
+        <center>
+            <video src="videos/bruno mars.mp4" width="600" autoplay controls></video>
+        </center>
+    </main>
+    <div id="contprincipal">
+        <div id="texto">
+            <section id="popantiguo">
+                <h2><b><i>El pop Antiguo</i></b></h2>
+            <article>
+                <p id="contenido">El pop es uno de los estilos musicales más extendidos. Como bien indica su nombre, la abreviación de popular music, es música creada con la intención de que agrade a las masas, canciones que ganaran popularidad con facilidad1. El pop nace como género musical a mitad de la década de los 50 en Reino Unido y Estados Unidos2. En los años cincuenta cuando la expresión pop music comienza a sonar con más fuerza. Eran los tiempos en los que el rock and roll estaba en auge y se utilizaba la palabra pop para referirse a las melodías más suaves dentro del rock. Fue en los años sesenta cuando se dio el pistoletazo de salida al cambio. Mientras en Estados Unidos Elvis Presley vive su momento de gloria, el rock and roll llega a Inglaterra y comienza a adquirir matices de otros estilos. De esta forma, se puede considerar que Liverpool es el lugar de nacimiento de la música pop. Así fue como, durante estos años, los músicos y grupos británicos se expandieron a nivel internacional, extendiendo el estilo pop con ellos. Bandas como The Beatles llenaban las listas de éxitos con sus canciones que daban la vuelta al mundo. En este momento la música pop ya era considerada totalmente opuesta al rock1. Los jóvenes fueron clave en el desarrollo de la música pop. Los medios de comunicación, especialmente la radio, también fueron elementos protagonistas, con programas musicales dirigidos a una audiencia joven y, evidentemente, con música pop. Los conciertos también jugaron un papel clave, considerándose el primer concierto pop de la historia el Festival Internacional de Música Pop de Monterey en California en el año 1967. El éxito de la música pop y de su rápido auge fue en parte gracias a la aparición del fenómeno fan. La expansión de la televisión también contribuyó al éxito del pop, ya que los fans querían imitar a sus ídolos, tal y como los veían desde sus casas.</p>
+            </article>
+            <img src="imagenes/beatles.jpg" id="caminando">
+            </section>
+            <section id="popactual">
+                <h2><b><i>El pop Actual</i></b></h2>
+                <article>
+                    <p id="contenido">El pop es un género de música popular que tuvo su origen a finales de los años 1950 como una derivación del Pop tradicional, en combinación con otros géneros musicales que estaban de moda en aquel momento1. Aunque gran parte de la música que aparece en las listas de discos se considera música pop, el género se distingue por factores que suelen ser los coros y ganchos repetidos, las canciones de corta a media duración escritas en un formato básico, y los ritmos o tempos que pueden bailarse fácilmente. Gran parte de la música pop también toma prestados elementos de otros estilos, como el rock, el urbano, el dance, el latino y el country. La música pop nació para posicionarse como el estilo preferido de varias generaciones, aunque, los años 80s fueron la década dónde las bandas pop dominaron al mundo. Este auge fue impulsado por la llegada a la televisión de los video clips, que popularizaron los particulares sonidos de este estilo2. Algunos artistas pop actuales relevantes incluyen a Dua Lipa, Harry Styles, Billie Eilish, Lady Gaga, Adele, Katy Perry, Rihanna, Beyoncé y Lana Del Rey.</p>
+                </article>
+                <img src="imagenes/eilish.jpg" id="eilish">
+            </section>
+            <section id="historia">
+                <h2><b><i>Marcaron Historia</i></b></h2>
+                <article>
+                    <p id="contenido">A lo largo de la historia de la música pop, ha habido muchos artistas que han dejado su huella y han marcado una época. En los años 80s, las bandas pop dominaron al mundo y este auge fue impulsado por la llegada a la televisión de los video clips, que popularizaron los particulares sonidos de este estilo1. Algunos artistas pop que marcaron historia incluyen a Britney Spears, quien en el año 2000 ya había publicado Baby One More Time, la gran sensación musical de aquella época2. Jennifer López también fue una artista destacada en el año 20012. En 2003, Beyoncé se convirtió en una de las artistas más destacadas2. En 2007, Rihanna y Amy Winehouse también marcaron historia con su música2. Katy Perry en 2008 y Lady Gaga en 2009 también dejaron su huella en la música pop2. Adele en 2011 también se convirtió en una artista destacada.</p>
+                </article>
+                <img src="imagenes/wembley.jpg" id="queen"> 
+            </section>
+        </div>
+        <aside>
+            <p id="tentoiframe"> <h2> <i> ¿Quieres escuchar nuestra playlist de spotify?</i></h2></p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/30Lw9Ka8iO4IKtpXW2zti0?utm_source=generator" width="290" height="1200"></iframe>
+            <div id="botonesdisc">
+                <img src="imagenes/balasperdidas.jpg" id="balasperdidas">
+                <button id="disco50" onclick="agregarAlCarrito(50)">Disponible por <br><b>50 bs</b></button>
+                <img src="imagenes/triller.png" id="triller">
+                <button id="disco80" onclick="agregarAlCarrito(80)">Disponible <br><b>80 bs</b></button>
+                <img src="imagenes/billie.png" id="billie">
+                <button id="disco100" onclick="agregarAlCarrito(100)">Disponible <br><b>100 bs</b></button>
+                <button id="verCarrito" onclick="verCarrito()"><p id="totalPagar">Total a pagar: <b>0</b> Bs</p></button>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p id="textofinal">Alejandro Andres Yujra Paye | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
