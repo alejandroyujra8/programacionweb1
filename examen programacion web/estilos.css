@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&display=swap');
-  html {
+html {
     scroll-behavior: smooth;
 }
   body{
@@ -9,8 +9,6 @@
 }
 header{
     background: #171614;
-    width: 100vw;
-    height: 30vh; /*vh es el tamano relativo a la ventana*/
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     border: none;
@@ -26,16 +24,11 @@ nav {
     font-size: 30pt;
     margin-right: 10px;
 }
-#michaelsito {
-    width: 8%;
-    height: 6%;
-    margin-right: 150px;
-}
 #pagina {
     text-decoration: none;
     color: #171614;
     font-size: 20pt;
-    margin-right: 70px;
+    margin-right: 130px;
 }
 #contprincipal {
     display: flex;
@@ -47,11 +40,6 @@ main {
 #texto {
     margin-right: 50px;
 }
-#popantiguo, #popactual, #historia {
-    margin-top: 50px;
-    margin-left: 30px;
-    font-family: 'Lobster', sans-serif;
-}
 #contenido {
     margin-top: 30px;
     margin-left: 35px;
@@ -60,27 +48,6 @@ main {
 aside {
     margin-top: 90px;
     
-}
-#botonesdisc {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-}
-#disco50, #disco80, #disco100 {
-    background-color: #c5a985;
-    border-radius: 10px;
-    border-spacing: 10px;
-}
-#verCarrito {
-    margin-top: 30px;
-    background-color: #c5a985;
-    border-radius: 30px;
-}
-#botonesdisc img {
-    height: 130px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 footer {
     flex: 1; /*nota mental, esto mantiene el footer abajo xd*/
@@ -99,11 +66,27 @@ body.cambioColores {
     background-color: #1784f2;
     color: #ffffff;
 }
-#queen, #eilish, #caminando {
-    width: 990px;
-    align-items: center;
+#titulo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#paginas {
+    margin-left: 300px;
+}
+#arriba {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    padding: 30px;
+    margin-left: 110px;
+}
+#contprincipal {
     margin-left: 50px;
+    margin-top: 50px;
+}
+#fotos {
+    height: 250px;
+margin-left: 300px;
+}
+iframe {
+    margin-right: 15px;
 }
